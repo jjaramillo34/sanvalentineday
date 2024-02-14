@@ -33,7 +33,8 @@ const AffectionWords = () => {
       <p>¡Te amo más de lo que las palabras pueden expresar!</p>
       <p>Feliz Día de San Valentín, mi amor.</p>
       <p>Con todo mi amor,</p>
-      <p>Crisita, ❤️ Munecosita</p>
+      <p>Crisita, ❤️❤️❤️❤️❤️❤️❤️ Munecosita</p>
+      <p>Atentamente, tu amorcito, JJ</p>
     </animated.div>
   );
 };
