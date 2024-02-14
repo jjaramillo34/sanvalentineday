@@ -17,10 +17,8 @@ const AffectionWords = () => {
   return (
     <animated.div style={props} className="affection-words">
       <h2 animate={{ fontSize: "50px" }}>Te amo, mi Munecosita</h2>
-
       <p className="affection-words-title">Para ti, mi amor:</p>
       <p>En este día especial, quiero recordarte cuánto te amo.</p>
-
       <p>
         Tú eres la razón por la que mi corazón late con fuerza y alegría cada
         día.
