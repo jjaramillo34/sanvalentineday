@@ -70,6 +70,49 @@ html {
   background-color: #cc5252;
 }
 
+.poem-button {
+  background-color: #ff6666;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.poem-button:hover {
+  background-color: #cc5252;
+}
+
+/* PoemModal component styles */
+.poem-modal {
+  background-color: #ff6666;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.poem-modal-close {
+  background-color: #cc5252;
+  color: white;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.poem-modal-close:hover {
+  background-color: #b34747;
+}
+
+/* Footer component styles */
+
 /* Animations and transitions */
 @keyframes fadeIn {
   from {
@@ -88,7 +131,7 @@ html {
 /* add media query for mobile devices */
 @media (max-width: 600px) {
   .app-title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .photo-modal-image {
@@ -102,12 +145,17 @@ html {
   .photo-button {
     font-size: 1em;
   }
+
+  .poem-button {
+    font-size: 1em;
+  }
+
 }
 
 /* add media query for large screens */
 @media (min-width: 1200px) {
   .app-title {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .photo-modal-image {
